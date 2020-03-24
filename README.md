@@ -8,9 +8,10 @@ First of all open the following files and delete all of their contents:
 2. *log.txt*
 3. *credentials.txt*
 
-Then place your username/email id and password on the **credentials.txt** file on **SEPERATE LINES!**. Like this:
+Then place your username/email id and password on the **credentials.txt** file on **SEPERATE LINES!** Like this:
 
 *exampleusername*
+
 *mypass23_90*
 
 Following are the functions(in bot.py) that you would wish to call(in Runner.py). Please make sure to pass a value whose type matches exactly as mentioned below:
