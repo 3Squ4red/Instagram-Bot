@@ -8,6 +8,11 @@ First of all open the following files and delete all of their contents:
 2. *log.txt*
 3. *credentials.txt*
 
+Then place your username/email id and password on the **credentials.txt** file on **SEPERATE LINES!**. Like this:
+
+*exampleusername*
+*mypass23_90*
+
 Following are the functions(in bot.py) that you would wish to call(in Runner.py). Please make sure to pass a value whose type matches exactly as mentioned below:
 
 **1. follow(str)**
@@ -24,7 +29,7 @@ Following are the functions(in bot.py) that you would wish to call(in Runner.py)
 
 To use this bot you have to know at least how to call Methods/Functions in python and how to pass arguments to them. Below are the list of actions you can perform using this bot and also the instructions on how to perform them:
 
-Open the *Runner.py* file and on the 10 line of the file call your desired function according to the instructions below:
+Open the *Runner.py* file and on the 10th line of the file call your desired function according to the instructions below:
 
 1. *To Follow account(s)*: If you want to follow only one account, type '*bot.follow(**username of the account**).*' If you're up to follow more than one account, pass a list of usernames of those accounts to '*bot.follow_usernames(**list containing all the usernames**)*'. Example of both the cases are as follows:
 
