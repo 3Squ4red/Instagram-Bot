@@ -7,6 +7,6 @@ file = open('Following.txt', 'r')
 usernames = file.read().split(',')
 
 # Call the desired function below
-bot.unfollow_usernames(usernames)
+
 
 print('Exiting bot...')
