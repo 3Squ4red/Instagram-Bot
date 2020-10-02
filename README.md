@@ -3,7 +3,7 @@ An Instagram bot that can follow, unfollow accounts and also like posts of those
 
 ### Please read the below instructions before using this bot! ###
 
-First of all open the following files and delete all of their contents:
+First of all, open the following files and delete all of their contents:
 1. *Following.txt*
 2. *log.txt*
 3. *credentials.txt*
@@ -28,7 +28,7 @@ Following are the functions(in bot.py) that you would wish to call(in Runner.py)
 
 **6. like_and_follow_posts_of_hashtag(str, int, int, bool(False by default))**
 
-To use this bot you have to know at least how to call Methods/Functions in python and how to pass arguments to them. Below are the list of actions you can perform using this bot and also the instructions on how to perform them:
+To use this bot, you have to know at least how to call Methods/Functions in python and how to pass arguments to them. Below is the list of actions you can perform using this bot and also the instructions on how to perform them:
 
 Open the *Runner.py* file and on the 10th line of the file call your desired function according to the instructions below:
 
